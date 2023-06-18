@@ -1,0 +1,83 @@
+* {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("../b2.jpeg");
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    font-family: "Roboto", sans-serif;
+    /* background: #f5f5f5; */
+}
+
+.login-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    max-width: 450px;
+    background: #fff;
+    padding: 20px 30px;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.1);
+}
+
+.login-form .form-title{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0px 30px;
+    color: #111;
+}
+
+.login-form .form-input{
+    margin: 10px 0px;
+}
+
+
+.login-form .form-input input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #888;
+    font-size: 15px;
+}
+
+.login-form #login-btn{
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #4c81ff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.group{
+    position: relative;
+    height: 30px;
+    overflow: hidden;
+    color: #fff;
+    background-color: #111;
+    border-bottom: 2px solid yellow;
+    border-top: 2px solid yellow;
+}
+
+.group.text{
+    position: absolute;
+    margin: 5px 0;
+    padding: 0;
+    width: max-content;
+    animation: my-animation 24s linear infinite;
+}
+
+
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with session stroage</title>
+    <link rel="stylesheet" href="App.css">
+</head>
+<body>
+    <form id="form">
+    <div class="login-form">
+        <div class="form-title">
+            Student Form 👨‍🎓
+        </div>
+        <div class="form-input">
+            <label for="username">Username 📝</label>
+            <input type="text"  id="username">
+        </div>
+
+        <div class="form-input">
+            <label for="email">E-mail 📧</label>
+            <input type="text"  id="email">
+        </div>
+        
+        <div class="form-input">
+            <label for="branch">Branch 📚</label>
+            <input type="branch" id="branch">
+        </div>
+
+        <div class="form-input">
+            <label for="year"> Acedemic Year 🗓️</label>
+            <input type="year" id="year">
+        </div>
+
+        <div class="form-input">
+            <button id="login-btn">Submit ⬆️</button>
+        </div>
+    </div>
+</form>
+
+<marquee>Interested students can fill the form for Art and Craft Activity 🖌️🎨</marquee>
+
+<!-- <div class="container">
+    <div class="group">
+        <p class="text">Interested students can fill the form for Art and Craft Activity 🖌️🎨</p>
+    </div>
+</div>
+<script>
+    var style=document.createElement('style');
+var position='right';
+
+style.innerHTML=`
+@keyframes my-animation{
+    0%{${position}:-${document.querySelector(".text").offsetWidth+10}px;}
+    100%{${position}:100%;}
+}`;
+
+document.head.append(style);
+</script> -->
+</body>
+<script src="App.js"></script>
+</html>

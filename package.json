@@ -1,0 +1,17 @@
+{
+  "name": "forms",
+  "version": "1.0.0",
+  "description": "form with session stroage",
+  "main": "index.js",
+  "scripts": {
+    "start": "node App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anjani Soni",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "form": "^0.2.4",
+    "sessionstorage": "^0.1.0"
+  }
+}
